@@ -1,0 +1,27 @@
+@import '~@angular/material/_theming.scss';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+table {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 500px;
+}
+ 
+th.mat-header-cell {
+    text-align: left;
+    max-width: 300px;
+}
+.mat-header-cell .mat-sort-header-sorted {
+    color: #0A0A0A;
+  }
+
+md-pagination-wrapper {
+    width:auto !important;
+}
+
+.basic-container {
+    padding: 30px;
+  }
