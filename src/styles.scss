@@ -2,13 +2,20 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 html, body { height: 100%; }
+<<<<<<< HEAD
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; top: 0px !important; background: #abccce;}
+=======
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+>>>>>>> 3a4c6a6ffad14c7fd7fb3dda74646420638356d4
 table {
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
+<<<<<<< HEAD
 }
 #tableFix {
+=======
+>>>>>>> 3a4c6a6ffad14c7fd7fb3dda74646420638356d4
     min-width: 500px;
 }
  
@@ -24,6 +31,7 @@ md-pagination-wrapper {
     width:auto !important;
 }
 
+<<<<<<< HEAD
 .mat-app-background {
     background-color: transparent !important;
     color: rgba(0,0,0,.87);
@@ -52,3 +60,8 @@ md-pagination-wrapper {
 .mat-form-field--inline .mat-form-field:nth-child(2) {
     margin-right: 10px;
 }
+=======
+.basic-container {
+    padding: 30px;
+  }
+>>>>>>> 3a4c6a6ffad14c7fd7fb3dda74646420638356d4

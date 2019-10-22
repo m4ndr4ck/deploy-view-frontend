@@ -44,6 +44,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     MatFormFieldModule,
     FormsModule,
+<<<<<<< HEAD
     MatInputModule,
     BrowserAnimationsModule,
     MatDatepickerModule,
@@ -51,6 +52,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule
   ],
   providers: [HttpClientModule, MatNativeDateModule, ReactiveFormsModule, {provide: MAT_DATE_LOCALE, useValue: 'pt-BR'}],
+=======
+    BrowserAnimationsModule
+  ],
+  providers: [HttpClientModule],
+>>>>>>> 3a4c6a6ffad14c7fd7fb3dda74646420638356d4
   bootstrap: [AppComponent]
 })
 export class AppModule { }

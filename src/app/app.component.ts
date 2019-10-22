@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { MatTableDataSource } from '@angular/material/table';
 import { Deployment } from './deployment.module';
+<<<<<<< HEAD
 import {FormControl} from '@angular/forms';
+=======
+>>>>>>> 3a4c6a6ffad14c7fd7fb3dda74646420638356d4
 
 
 export interface Application {
@@ -18,7 +21,11 @@ export interface Application {
 export class AppComponent {
   title = 'app-frontend';
   value = ''
+<<<<<<< HEAD
   public displayedColumns = ['application', 'module', 'version', 'environment', 'date', 'status'];
+=======
+  public displayedColumns = ['application', 'module', 'environment', 'date', 'status'];
+>>>>>>> 3a4c6a6ffad14c7fd7fb3dda74646420638356d4
   public dataSource = new MatTableDataSource<Deployment>()
   applications: Application[] = [
     {value: 'resource-inventory', viewValue: 'Resource Inventory'},
