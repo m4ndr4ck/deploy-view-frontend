@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/_theming.scss';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; top: 0px !important; background: #abccce;}
+table {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#tableFix {
+    min-width: 500px;
+}
+ 
+th.mat-header-cell {
+    text-align: left;
+    max-width: 300px;
+}
+.mat-header-cell .mat-sort-header-sorted {
+    color: #0A0A0A;
+  }
+
+md-pagination-wrapper {
+    width:auto !important;
+}
+
+.mat-app-background {
+    background-color: transparent !important;
+    color: rgba(0,0,0,.87);
+}
+
+.basic-container {
+    padding: 30px;
+  }
+
+  .mat-form-field--inline {
+    display: inherit;
+    list-style:none; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.mat-form-field--inline .mat-form-field {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mat-form-field--inline .mat-form-field:nth-child(1) {
+    margin-right: 10px;
+}
+
+.mat-form-field--inline .mat-form-field:nth-child(2) {
+    margin-right: 10px;
+}
