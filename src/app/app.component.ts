@@ -33,7 +33,7 @@ export class AppComponent {
   onEnter() {
     var minDate = this.date1.value.setHours(0,0,0,0);
     var maxDate = this.date2.value.setHours(0,0,0,0) + 86400000;
-    this.httpClient.get('http://192.168.43.102:8080'+'/deployments/get/'
+    this.httpClient.get('http://10.129.179.191:3333'+'/deployments/get/'
     +this.selectedValue+'/'
     +minDate+'/'
     +maxDate).subscribe((res: any)=>{

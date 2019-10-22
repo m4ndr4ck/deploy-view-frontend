@@ -1,6 +1,10 @@
-# AppFrontend
+# Deploy View Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
+
+## Docker image
+
+Run `npm run docker:build` to generate a Docker image
 
 ## Development server
 
